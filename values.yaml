@@ -1,0 +1,13 @@
+orgWhitelist: github.com/alchemija/*
+orgAllowlist: github.com/alchemija/*
+
+github:
+   user: alchemija #choose your user
+   token: <token> #use your own token!
+   secret: "secret" #user your own secret!
+   hostname: github.com #set your hostname
+
+service:
+  type: NodePort
+  nodePort: 30000 #choose your port
+
