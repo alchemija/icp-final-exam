@@ -41,7 +41,7 @@ resource "aws_eks_node_group" "main" {
     max_unavailable = 1 
   }
 
-  instance_types = ["t3.micro"]
+  instance_types = ["t2.small"]
 
   depends_on = [
     aws_iam_role_policy_attachment.eks_node_policy
